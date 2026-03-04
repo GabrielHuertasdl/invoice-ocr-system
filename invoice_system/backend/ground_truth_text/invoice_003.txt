@@ -1,0 +1,23 @@
+DesignStudio GmbH
+Hauptstrasse 10, 10115 Berlin
+
+RECHNUNG / INVOICE
+
+Invoice No: DS-2024-007
+Invoice Date: 20 Mar 2024
+Due Date: 20 Apr 2024
+
+Client:
+  EU Commerce BV
+  Amsterdam, Netherlands
+
+Item                            Qty    Unit Price    Amount
+Logo Design                       1      1200.00     1200.00
+Brand Guidelines Document         1       800.00      800.00
+Social Media Kit                  1       400.00      400.00
+
+                                      Net Total:      2400.00
+                                      VAT (19%):       456.00
+                                      Total Amount:   2856.00
+
+EUR

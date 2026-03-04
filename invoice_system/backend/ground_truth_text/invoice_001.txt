@@ -1,0 +1,23 @@
+Acme Corp Ltd
+123 Business Street, London, EC1A 1BB
+
+INVOICE
+
+Invoice No:   INV-2024-0042
+Invoice Date: 15/03/2024
+Due Date:     15/04/2024
+
+Bill To:
+  GlobalTech Solutions
+  456 Tech Park, Manchester
+
+Description                     Qty    Unit Price    Line Total
+Web Development Services         10       100.00       1000.00
+Project Management                5        80.00        400.00
+Hosting Setup                     1       200.00        200.00
+
+                                      Subtotal:       1600.00
+                                      VAT (20%):       320.00
+                                      Total Due:      1920.00
+
+Currency: GBP

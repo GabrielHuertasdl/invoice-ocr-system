@@ -1,0 +1,23 @@
+TechSupplies Inc.
+789 Innovation Ave, New York, NY 10001
+
+INVOICE
+
+Invoice Number: INV-2024-0099
+Date of Invoice: 02/04/2024
+Payment Due:     02/05/2024
+
+Bill To:
+  Startup Ventures LLC
+  101 Startup Blvd, San Francisco
+
+Description                     Qty    Unit Price    Total
+Cloud Server (monthly)            3       150.00       450.00
+Support Hours                    10        75.00       750.00
+Software Licence                  2       500.00      1000.00
+
+                                      Subtotal:       2200.00
+                                      Tax (8%):        176.00
+                                      Grand Total:    2376.00
+
+USD

@@ -1,0 +1,42 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment (346 MB – install via requirements.txt instead)
+invoice_system/venv/
+
+# ── Environment / secrets ────────────────────────────────────────────────────
+.env
+# Keep .env.example (template with no secrets)
+
+# ── Database ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Backend generated / runtime dirs ─────────────────────────────────────────
+invoice_system/backend/uploads/*
+!invoice_system/backend/uploads/.gitkeep
+
+invoice_system/backend/ocr_outputs/
+invoice_system/backend/pred_json/
+invoice_system/backend/out/
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+invoice_system/frontend/node_modules/
+invoice_system/frontend/dist/
+invoice_system/frontend/.vite/
+
+# ── Process / tooling ────────────────────────────────────────────────────────
+.pids
+.claude/
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
