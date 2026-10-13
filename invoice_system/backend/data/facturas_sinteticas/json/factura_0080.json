@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0080.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0080.pdf",
+  "status": "completed",
+  "supplier_name": "Ferro Industrias S.A.",
+  "supplier_address": "Avda. Diagonal 420, 08037 Barcelona",
+  "client_name": "Retail Dynamics S.A.",
+  "invoice_number": "DOC-2024-0080",
+  "invoice_date": "06/29/2024",
+  "due_date": "07/29/2024",
+  "subtotal": 2266.47,
+  "tax_amount": 475.96,
+  "total_amount": 2742.43,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Project Management",
+      "quantity": 5.0,
+      "unit_price": 104.45,
+      "line_total": 522.25
+    },
+    {
+      "description": "Photography",
+      "quantity": 2.0,
+      "unit_price": 415.2,
+      "line_total": 830.4
+    },
+    {
+      "description": "Server Migration",
+      "quantity": 1.0,
+      "unit_price": 913.82,
+      "line_total": 913.82
+    }
+  ]
+}

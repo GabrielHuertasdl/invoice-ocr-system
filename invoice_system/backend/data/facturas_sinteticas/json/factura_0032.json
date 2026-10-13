@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0032.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0032.pdf",
+  "status": "completed",
+  "supplier_name": "Acme Corp Ltd",
+  "supplier_address": "123 Business Street, London, EC1A 1BB",
+  "client_name": "Meridian Partners",
+  "invoice_number": "BILL20250032",
+  "invoice_date": "7 Nov 2025",
+  "due_date": "7 Dec 2025",
+  "subtotal": 2454.85,
+  "tax_amount": 490.97,
+  "total_amount": 2945.82,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Training Sessions",
+      "quantity": 3.0,
+      "unit_price": 380.19,
+      "line_total": 1140.57
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 10.0,
+      "unit_price": 103.95,
+      "line_total": 1039.5
+    },
+    {
+      "description": "Photography",
+      "quantity": 1.0,
+      "unit_price": 274.78,
+      "line_total": 274.78
+    }
+  ]
+}

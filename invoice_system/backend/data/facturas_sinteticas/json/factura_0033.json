@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0033.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0033.pdf",
+  "status": "completed",
+  "supplier_name": "RedBrick Studios",
+  "supplier_address": "27 Brick Lane, London, E1 6PU",
+  "client_name": "Pioneer Retail Ltd",
+  "invoice_number": "BILL-0033",
+  "invoice_date": "11/28/2025",
+  "due_date": "01/12/2026",
+  "subtotal": 5097.63,
+  "tax_amount": 1019.53,
+  "total_amount": 6117.16,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 370.93,
+      "line_total": 370.93
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 1.0,
+      "unit_price": 853.96,
+      "line_total": 853.96
+    },
+    {
+      "description": "Training Sessions",
+      "quantity": 10.0,
+      "unit_price": 251.52,
+      "line_total": 2515.2
+    },
+    {
+      "description": "Photography",
+      "quantity": 1.0,
+      "unit_price": 200.24,
+      "line_total": 200.24
+    },
+    {
+      "description": "Data Analysis",
+      "quantity": 10.0,
+      "unit_price": 115.73,
+      "line_total": 1157.3
+    }
+  ]
+}

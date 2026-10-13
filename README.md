@@ -101,6 +101,110 @@ python scripts/evaluate_extraction_metrics.py \
 
 ---
 
+## AI Layer (Search + QA)
+
+Two new endpoints sit under `/api/ai/` and require no additional infrastructure.
+
+### Search invoices by natural language
+
+```bash
+# All invoices from "Acme Corp" (fuzzy match on supplier_name)
+curl "http://localhost:8000/api/ai/search?q=facturas+de+Acme+Corp"
+
+# Works in English too
+curl "http://localhost:8000/api/ai/search?q=Acme+Corp+invoices"
+```
+
+Response: array of `InvoiceSummary` objects (same shape as `GET /api/invoices`).
+
+### Ask a question about a specific invoice
+
+```bash
+# Ask a free-text question about invoice id=3
+curl -X POST http://localhost:8000/api/ai/qa \
+  -H "Content-Type: application/json" \
+  -d '{"invoice_id": 3, "question": "What is the total amount and which currency?"}'
+
+# Another example
+curl -X POST http://localhost:8000/api/ai/qa \
+  -H "Content-Type: application/json" \
+  -d '{"invoice_id": 3, "question": "List all line items and their prices."}'
+```
+
+Response:
+```json
+{
+  "invoice_id": 3,
+  "question": "What is the total amount and which currency?",
+  "answer": "The total amount is 1,920.00 GBP (British Pounds)."
+}
+```
+
+### Configuring the LLM
+
+Edit `invoice_system/backend/.env`:
+
+```ini
+LLM_PROVIDER=claude   # or "openai"
+LLM_API_KEY=sk-ant-...
+```
+
+Install the matching SDK:
+
+```bash
+pip install anthropic   # for LLM_PROVIDER=claude
+pip install openai      # for LLM_PROVIDER=openai
+```
+
+The `/api/ai/search` endpoint works **without** an LLM key (pure fuzzy matching).
+The `/api/ai/qa` endpoint requires a valid key and will return HTTP 503 if not set.
+
+---
+
+## Synthetic Invoice Data
+
+Generate 200+ realistic but fictional invoices for testing:
+
+```bash
+cd invoice_system/backend
+
+# Generate JSON files only (no DB changes)
+python scripts/generar_facturas_sinteticas.py
+
+# Generate and insert directly into the database
+python scripts/generar_facturas_sinteticas.py --insert-db
+
+# Custom count and output directory
+python scripts/generar_facturas_sinteticas.py --count 500 --out-dir /tmp/test_invoices
+```
+
+Generated files are saved to `invoice_system/backend/data/facturas_sinteticas/json/`
+as `factura_0001.json … factura_NNNN.json`.
+
+Each file mirrors the full Invoice schema:
+
+```json
+{
+  "filename": "factura_0001.pdf",
+  "status": "completed",
+  "supplier_name": "Acme Corp Ltd",
+  "invoice_number": "INV-2024-0001",
+  "invoice_date": "15/03/2024",
+  "due_date": "14/04/2024",
+  "subtotal": 1600.00,
+  "tax_amount": 320.00,
+  "total_amount": 1920.00,
+  "currency": "GBP",
+  "line_items": [...]
+}
+```
+
+To ingest the JSON-only files through the normal upload pipeline (OCR + extraction),
+you would need real PDF versions. Use `--insert-db` to bypass the pipeline and
+insert the pre-extracted data directly — useful for populating a dev/test database.
+
+---
+
 ## Environment Variables
 
 Copy `.env.example` to `.env` inside `invoice_system/backend/` and adjust as needed:
@@ -111,3 +215,5 @@ Copy `.env.example` to `.env` inside `invoice_system/backend/` and adjust as nee
 | `UPLOAD_DIR` | `./uploads` | Directory for uploaded files |
 | `TESSERACT_CMD` | `tesseract` | Path to Tesseract binary |
 | `LOG_LEVEL` | `INFO` | Logging verbosity |
+| `LLM_PROVIDER` | `claude` | LLM provider: `claude` or `openai` |
+| `LLM_API_KEY` | *(empty)* | API key for the chosen LLM provider |

@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0019.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0019.pdf",
+  "status": "completed",
+  "supplier_name": "Nexus Software BV",
+  "supplier_address": "Keizersgracht 100, 1015 CL Amsterdam",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "INV-0019",
+  "invoice_date": "12 Feb 2025",
+  "due_date": "13 Apr 2025",
+  "subtotal": 754.92,
+  "tax_amount": 158.53,
+  "total_amount": 913.45,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 1.0,
+      "unit_price": 495.93,
+      "line_total": 495.93
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 3.0,
+      "unit_price": 86.33,
+      "line_total": 258.99
+    }
+  ]
+}

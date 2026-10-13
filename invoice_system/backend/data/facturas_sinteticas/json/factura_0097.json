@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0097.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0097.pdf",
+  "status": "completed",
+  "supplier_name": "Alpine Consulting AG",
+  "supplier_address": "Bahnhofstrasse 22, 8001 Zürich",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "REC20240097",
+  "invoice_date": "31 Mar 2024",
+  "due_date": "15 Apr 2024",
+  "subtotal": 12948.14,
+  "tax_amount": 997.01,
+  "total_amount": 13945.15,
+  "currency": "CHF",
+  "tax_rate_pct": 7.7,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Hardware Procurement",
+      "quantity": 10.0,
+      "unit_price": 598.83,
+      "line_total": 5988.3
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 3.0,
+      "unit_price": 53.45,
+      "line_total": 160.35
+    },
+    {
+      "description": "Legal Advisory",
+      "quantity": 3.0,
+      "unit_price": 579.93,
+      "line_total": 1739.79
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 10.0,
+      "unit_price": 505.97,
+      "line_total": 5059.7
+    }
+  ]
+}

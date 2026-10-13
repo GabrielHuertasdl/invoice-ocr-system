@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0071.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0071.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "Retail Dynamics S.A.",
+  "invoice_number": "SRV20250071",
+  "invoice_date": "07/30/2025",
+  "due_date": "09/13/2025",
+  "subtotal": 1732.93,
+  "tax_amount": 363.92,
+  "total_amount": 2096.85,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Content Writing",
+      "quantity": 1.0,
+      "unit_price": 70.23,
+      "line_total": 70.23
+    },
+    {
+      "description": "Photography",
+      "quantity": 1.0,
+      "unit_price": 606.57,
+      "line_total": 606.57
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 1.0,
+      "unit_price": 64.77,
+      "line_total": 64.77
+    },
+    {
+      "description": "Maintenance Contract",
+      "quantity": 1.0,
+      "unit_price": 991.36,
+      "line_total": 991.36
+    }
+  ]
+}

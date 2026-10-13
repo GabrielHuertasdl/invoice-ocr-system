@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0125.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0125.pdf",
+  "status": "completed",
+  "supplier_name": "Ferro Industrias S.A.",
+  "supplier_address": "Avda. Diagonal 420, 08037 Barcelona",
+  "client_name": "Meridian Partners",
+  "invoice_number": "SRV-2024-0125",
+  "invoice_date": "26 Jan 2024",
+  "due_date": "26 Mar 2024",
+  "subtotal": 3901.52,
+  "tax_amount": 819.32,
+  "total_amount": 4720.84,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 259.26,
+      "line_total": 1296.3
+    },
+    {
+      "description": "Network Setup",
+      "quantity": 3.0,
+      "unit_price": 401.6,
+      "line_total": 1204.8
+    },
+    {
+      "description": "Maintenance Contract",
+      "quantity": 2.0,
+      "unit_price": 587.56,
+      "line_total": 1175.12
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 1.0,
+      "unit_price": 175.27,
+      "line_total": 175.27
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 50.03,
+      "line_total": 50.03
+    }
+  ]
+}

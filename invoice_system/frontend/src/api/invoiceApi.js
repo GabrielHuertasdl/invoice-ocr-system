@@ -49,3 +49,13 @@ export function updateInvoice(id, payload) {
 export function healthCheck() {
   return request("GET", "/health");
 }
+
+/** Search invoices by natural language query (no API key needed). */
+export function searchInvoices(query) {
+  return request("GET", `/ai/search?q=${encodeURIComponent(query)}`);
+}
+
+/** Ask a question about a specific invoice (requires LLM_API_KEY in .env). */
+export function qaInvoice(invoiceId, question) {
+  return request("POST", "/ai/qa", { invoice_id: invoiceId, question });
+}

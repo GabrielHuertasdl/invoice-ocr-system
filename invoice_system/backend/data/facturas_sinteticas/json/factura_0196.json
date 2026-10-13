@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0196.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0196.pdf",
+  "status": "completed",
+  "supplier_name": "Horizon Ventures S.r.l.",
+  "supplier_address": "Via Roma 55, 20121 Milano",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "REC-2024-0196",
+  "invoice_date": "28 Jun 2024",
+  "due_date": "27 Aug 2024",
+  "subtotal": 798.33,
+  "tax_amount": 175.63,
+  "total_amount": 973.96,
+  "currency": "EUR",
+  "tax_rate_pct": 22.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "UI/UX Design",
+      "quantity": 10.0,
+      "unit_price": 64.32,
+      "line_total": 643.2
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 155.13,
+      "line_total": 155.13
+    }
+  ]
+}

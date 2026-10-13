@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0141.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0141.pdf",
+  "status": "completed",
+  "supplier_name": "DataFlow GmbH",
+  "supplier_address": "Unter den Linden 77, 10117 Berlin",
+  "client_name": "Pioneer Retail Ltd",
+  "invoice_number": "SRV-2022-0141",
+  "invoice_date": "11/07/2022",
+  "due_date": "01/06/2023",
+  "subtotal": 4805.93,
+  "tax_amount": 913.13,
+  "total_amount": 5719.06,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Training Sessions",
+      "quantity": 2.0,
+      "unit_price": 343.74,
+      "line_total": 687.48
+    },
+    {
+      "description": "API Integration",
+      "quantity": 5.0,
+      "unit_price": 823.69,
+      "line_total": 4118.45
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0166.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0166.pdf",
+  "status": "completed",
+  "supplier_name": "Horizon Ventures S.r.l.",
+  "supplier_address": "Via Roma 55, 20121 Milano",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "BILL-0166",
+  "invoice_date": "02/21/2023",
+  "due_date": "04/07/2023",
+  "subtotal": 2671.79,
+  "tax_amount": 587.79,
+  "total_amount": 3259.58,
+  "currency": "EUR",
+  "tax_rate_pct": 22.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Training Sessions",
+      "quantity": 5.0,
+      "unit_price": 366.02,
+      "line_total": 1830.1
+    },
+    {
+      "description": "Mobile App Development",
+      "quantity": 1.0,
+      "unit_price": 126.7,
+      "line_total": 126.7
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 3.0,
+      "unit_price": 238.33,
+      "line_total": 714.99
+    }
+  ]
+}

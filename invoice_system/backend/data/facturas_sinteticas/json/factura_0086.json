@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0086.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0086.pdf",
+  "status": "completed",
+  "supplier_name": "DesignStudio GmbH",
+  "supplier_address": "Hauptstrasse 10, 10115 Berlin",
+  "client_name": "EU Commerce BV",
+  "invoice_number": "BILL-0086",
+  "invoice_date": "07/02/2025",
+  "due_date": "08/16/2025",
+  "subtotal": 13857.28,
+  "tax_amount": 2632.88,
+  "total_amount": 16490.16,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Network Setup",
+      "quantity": 2.0,
+      "unit_price": 326.94,
+      "line_total": 653.88
+    },
+    {
+      "description": "API Integration",
+      "quantity": 5.0,
+      "unit_price": 359.51,
+      "line_total": 1797.55
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 5.0,
+      "unit_price": 49.15,
+      "line_total": 245.75
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 10.0,
+      "unit_price": 1116.01,
+      "line_total": 11160.1
+    }
+  ]
+}

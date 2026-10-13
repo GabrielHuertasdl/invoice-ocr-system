@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0142.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0142.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "Meridian Partners",
+  "invoice_number": "SRV20250142",
+  "invoice_date": "22/02/2025",
+  "due_date": "08/04/2025",
+  "subtotal": 8667.3,
+  "tax_amount": 1820.13,
+  "total_amount": 10487.43,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "API Integration",
+      "quantity": 3.0,
+      "unit_price": 575.8,
+      "line_total": 1727.4
+    },
+    {
+      "description": "Data Analysis",
+      "quantity": 1.0,
+      "unit_price": 138.2,
+      "line_total": 138.2
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 10.0,
+      "unit_price": 605.52,
+      "line_total": 6055.2
+    },
+    {
+      "description": "Database Administration",
+      "quantity": 5.0,
+      "unit_price": 149.3,
+      "line_total": 746.5
+    }
+  ]
+}

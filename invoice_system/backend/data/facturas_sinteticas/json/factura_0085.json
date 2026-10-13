@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0085.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0085.pdf",
+  "status": "completed",
+  "supplier_name": "GlobalTech Solutions",
+  "supplier_address": "456 Tech Park, Manchester, M1 2WD",
+  "client_name": "SkyNet Industries",
+  "invoice_number": "BILL-2023-0085",
+  "invoice_date": "30 Mar 2023",
+  "due_date": "14 Apr 2023",
+  "subtotal": 7993.36,
+  "tax_amount": 1598.67,
+  "total_amount": 9592.03,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 10.0,
+      "unit_price": 119.89,
+      "line_total": 1198.9
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 5.0,
+      "unit_price": 841.78,
+      "line_total": 4208.9
+    },
+    {
+      "description": "Logo Design",
+      "quantity": 5.0,
+      "unit_price": 397.17,
+      "line_total": 1985.85
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 1.0,
+      "unit_price": 231.94,
+      "line_total": 231.94
+    },
+    {
+      "description": "Mobile App Development",
+      "quantity": 1.0,
+      "unit_price": 367.77,
+      "line_total": 367.77
+    }
+  ]
+}

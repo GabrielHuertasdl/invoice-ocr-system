@@ -1,0 +1,26 @@
+{
+  "filename": "factura_0179.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0179.pdf",
+  "status": "completed",
+  "supplier_name": "Pacific Freight Co.",
+  "supplier_address": "500 Ocean Blvd, Los Angeles, CA 90001",
+  "client_name": "Pioneer Retail Ltd",
+  "invoice_number": "REC-2022-0179",
+  "invoice_date": "08/07/2022",
+  "due_date": "08/22/2022",
+  "subtotal": 755.8,
+  "tax_amount": 71.8,
+  "total_amount": 827.6,
+  "currency": "USD",
+  "tax_rate_pct": 9.5,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 10.0,
+      "unit_price": 75.58,
+      "line_total": 755.8
+    }
+  ]
+}

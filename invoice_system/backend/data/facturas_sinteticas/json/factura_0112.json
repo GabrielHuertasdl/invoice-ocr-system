@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0112.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0112.pdf",
+  "status": "completed",
+  "supplier_name": "Zenith Consulting Inc.",
+  "supplier_address": "350 Fifth Avenue, New York, NY 10118",
+  "client_name": "Meridian Partners",
+  "invoice_number": "DOC-2022-0112",
+  "invoice_date": "08/16/2022",
+  "due_date": "09/30/2022",
+  "subtotal": 429.34,
+  "tax_amount": 38.1,
+  "total_amount": 467.44,
+  "currency": "USD",
+  "tax_rate_pct": 8.88,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 2.0,
+      "unit_price": 43.82,
+      "line_total": 87.64
+    },
+    {
+      "description": "Project Management",
+      "quantity": 3.0,
+      "unit_price": 113.9,
+      "line_total": 341.7
+    }
+  ]
+}

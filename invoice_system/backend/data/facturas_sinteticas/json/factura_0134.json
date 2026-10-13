@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0134.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0134.pdf",
+  "status": "completed",
+  "supplier_name": "DesignStudio GmbH",
+  "supplier_address": "Hauptstrasse 10, 10115 Berlin",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "SRV-0134",
+  "invoice_date": "25 Jul 2024",
+  "due_date": "24 Aug 2024",
+  "subtotal": 12535.56,
+  "tax_amount": 2381.76,
+  "total_amount": 14917.32,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 112.16,
+      "line_total": 112.16
+    },
+    {
+      "description": "Server Migration",
+      "quantity": 10.0,
+      "unit_price": 1242.34,
+      "line_total": 12423.4
+    }
+  ]
+}

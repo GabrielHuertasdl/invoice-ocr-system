@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0099.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0099.pdf",
+  "status": "completed",
+  "supplier_name": "DataFlow GmbH",
+  "supplier_address": "Unter den Linden 77, 10117 Berlin",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "DOC-2025-0099",
+  "invoice_date": "1 Apr 2025",
+  "due_date": "31 May 2025",
+  "subtotal": 4892.44,
+  "tax_amount": 929.56,
+  "total_amount": 5822.0,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Logo Design",
+      "quantity": 2.0,
+      "unit_price": 695.79,
+      "line_total": 1391.58
+    },
+    {
+      "description": "Network Setup",
+      "quantity": 1.0,
+      "unit_price": 304.77,
+      "line_total": 304.77
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 3.0,
+      "unit_price": 677.8,
+      "line_total": 2033.4
+    },
+    {
+      "description": "Hardware Procurement",
+      "quantity": 3.0,
+      "unit_price": 301.11,
+      "line_total": 903.33
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 129.68,
+      "line_total": 259.36
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0149.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0149.pdf",
+  "status": "completed",
+  "supplier_name": "Nordic Systems AB",
+  "supplier_address": "Storgatan 5, 111 29 Stockholm",
+  "client_name": "Cascade Systems",
+  "invoice_number": "FAC-2025-0149",
+  "invoice_date": "08/20/2025",
+  "due_date": "10/04/2025",
+  "subtotal": 5524.12,
+  "tax_amount": 1381.03,
+  "total_amount": 6905.15,
+  "currency": "EUR",
+  "tax_rate_pct": 25.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Web Development Services",
+      "quantity": 1.0,
+      "unit_price": 117.42,
+      "line_total": 117.42
+    },
+    {
+      "description": "Legal Advisory",
+      "quantity": 10.0,
+      "unit_price": 540.67,
+      "line_total": 5406.7
+    }
+  ]
+}

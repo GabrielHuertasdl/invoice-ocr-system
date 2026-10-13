@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0026.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0026.pdf",
+  "status": "completed",
+  "supplier_name": "TechSupplies Inc.",
+  "supplier_address": "789 Innovation Ave, New York, NY 10001",
+  "client_name": "Titan Manufacturing",
+  "invoice_number": "INV20250026",
+  "invoice_date": "04/07/2025",
+  "due_date": "05/07/2025",
+  "subtotal": 12714.41,
+  "tax_amount": 1017.15,
+  "total_amount": 13731.56,
+  "currency": "USD",
+  "tax_rate_pct": 8.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 10.0,
+      "unit_price": 459.59,
+      "line_total": 4595.9
+    },
+    {
+      "description": "Mobile App Development",
+      "quantity": 1.0,
+      "unit_price": 391.1,
+      "line_total": 391.1
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 111.91,
+      "line_total": 111.91
+    },
+    {
+      "description": "Server Migration",
+      "quantity": 5.0,
+      "unit_price": 1523.1,
+      "line_total": 7615.5
+    }
+  ]
+}

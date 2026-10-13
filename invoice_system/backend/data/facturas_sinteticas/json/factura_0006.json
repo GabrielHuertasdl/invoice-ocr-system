@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0006.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0006.pdf",
+  "status": "completed",
+  "supplier_name": "Alpine Consulting AG",
+  "supplier_address": "Bahnhofstrasse 22, 8001 Zürich",
+  "client_name": "EU Commerce BV",
+  "invoice_number": "FAC-0006",
+  "invoice_date": "02/17/2024",
+  "due_date": "04/02/2024",
+  "subtotal": 8157.48,
+  "tax_amount": 628.13,
+  "total_amount": 8785.61,
+  "currency": "CHF",
+  "tax_rate_pct": 7.7,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "SEO Optimisation",
+      "quantity": 1.0,
+      "unit_price": 332.8,
+      "line_total": 332.8
+    },
+    {
+      "description": "Photography",
+      "quantity": 10.0,
+      "unit_price": 693.08,
+      "line_total": 6930.8
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 1.0,
+      "unit_price": 389.27,
+      "line_total": 389.27
+    },
+    {
+      "description": "Office Supplies",
+      "quantity": 3.0,
+      "unit_price": 15.96,
+      "line_total": 47.88
+    },
+    {
+      "description": "Accounting Services",
+      "quantity": 1.0,
+      "unit_price": 456.73,
+      "line_total": 456.73
+    }
+  ]
+}

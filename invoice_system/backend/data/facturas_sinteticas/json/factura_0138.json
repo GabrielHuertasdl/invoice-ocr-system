@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0138.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0138.pdf",
+  "status": "completed",
+  "supplier_name": "Zenith Consulting Inc.",
+  "supplier_address": "350 Fifth Avenue, New York, NY 10118",
+  "client_name": "Cascade Systems",
+  "invoice_number": "SRV-0138",
+  "invoice_date": "04/30/2025",
+  "due_date": "06/14/2025",
+  "subtotal": 9122.41,
+  "tax_amount": 809.61,
+  "total_amount": 9932.02,
+  "currency": "USD",
+  "tax_rate_pct": 8.88,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Office Supplies",
+      "quantity": 2.0,
+      "unit_price": 60.66,
+      "line_total": 121.32
+    },
+    {
+      "description": "API Integration",
+      "quantity": 1.0,
+      "unit_price": 789.45,
+      "line_total": 789.45
+    },
+    {
+      "description": "QA Testing",
+      "quantity": 1.0,
+      "unit_price": 89.81,
+      "line_total": 89.81
+    },
+    {
+      "description": "Social Media Management",
+      "quantity": 3.0,
+      "unit_price": 591.96,
+      "line_total": 1775.88
+    },
+    {
+      "description": "Video Production",
+      "quantity": 5.0,
+      "unit_price": 1269.19,
+      "line_total": 6345.95
+    }
+  ]
+}

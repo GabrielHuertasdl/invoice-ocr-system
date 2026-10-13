@@ -1,0 +1,26 @@
+{
+  "filename": "factura_0163.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0163.pdf",
+  "status": "completed",
+  "supplier_name": "TechSupplies Inc.",
+  "supplier_address": "789 Innovation Ave, New York, NY 10001",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "SRV-0163",
+  "invoice_date": "10/11/2025",
+  "due_date": "10/26/2025",
+  "subtotal": 3072.57,
+  "tax_amount": 245.81,
+  "total_amount": 3318.38,
+  "currency": "USD",
+  "tax_rate_pct": 8.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 3.0,
+      "unit_price": 1024.19,
+      "line_total": 3072.57
+    }
+  ]
+}

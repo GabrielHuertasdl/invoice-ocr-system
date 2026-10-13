@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0181.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0181.pdf",
+  "status": "completed",
+  "supplier_name": "ClearPath IT S.L.",
+  "supplier_address": "Gran Via 23, 48001 Bilbao",
+  "client_name": "Quantum Leap Ltd",
+  "invoice_number": "REC20250181",
+  "invoice_date": "17/03/2025",
+  "due_date": "16/04/2025",
+  "subtotal": 472.68,
+  "tax_amount": 99.26,
+  "total_amount": 571.94,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Database Administration",
+      "quantity": 1.0,
+      "unit_price": 99.52,
+      "line_total": 99.52
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 125.31,
+      "line_total": 250.62
+    },
+    {
+      "description": "Content Writing",
+      "quantity": 1.0,
+      "unit_price": 43.8,
+      "line_total": 43.8
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 78.74,
+      "line_total": 78.74
+    }
+  ]
+}

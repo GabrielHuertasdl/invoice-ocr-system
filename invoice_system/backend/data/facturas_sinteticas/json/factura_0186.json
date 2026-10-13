@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0186.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0186.pdf",
+  "status": "completed",
+  "supplier_name": "ClearPath IT S.L.",
+  "supplier_address": "Gran Via 23, 48001 Bilbao",
+  "client_name": "Meridian Partners",
+  "invoice_number": "SRV20240186",
+  "invoice_date": "6 May 2024",
+  "due_date": "21 May 2024",
+  "subtotal": 11612.58,
+  "tax_amount": 2438.64,
+  "total_amount": 14051.22,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Video Production",
+      "quantity": 5.0,
+      "unit_price": 1842.26,
+      "line_total": 9211.3
+    },
+    {
+      "description": "Maintenance Contract",
+      "quantity": 1.0,
+      "unit_price": 940.08,
+      "line_total": 940.08
+    },
+    {
+      "description": "HR Consulting",
+      "quantity": 5.0,
+      "unit_price": 292.24,
+      "line_total": 1461.2
+    }
+  ]
+}

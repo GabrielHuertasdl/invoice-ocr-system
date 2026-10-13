@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0087.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0087.pdf",
+  "status": "completed",
+  "supplier_name": "Sunrise Digital Lda.",
+  "supplier_address": "Rua Augusta 80, 1100-053 Lisboa",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "FAC-0087",
+  "invoice_date": "04/13/2023",
+  "due_date": "06/12/2023",
+  "subtotal": 984.31,
+  "tax_amount": 226.39,
+  "total_amount": 1210.7,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Office Supplies",
+      "quantity": 1.0,
+      "unit_price": 47.44,
+      "line_total": 47.44
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 1.0,
+      "unit_price": 743.8,
+      "line_total": 743.8
+    },
+    {
+      "description": "Data Analysis",
+      "quantity": 1.0,
+      "unit_price": 193.07,
+      "line_total": 193.07
+    }
+  ]
+}

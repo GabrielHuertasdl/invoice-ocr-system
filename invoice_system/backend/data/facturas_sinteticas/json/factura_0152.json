@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0152.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0152.pdf",
+  "status": "completed",
+  "supplier_name": "Nexus Software BV",
+  "supplier_address": "Keizersgracht 100, 1015 CL Amsterdam",
+  "client_name": "Cascade Systems",
+  "invoice_number": "BILL20250152",
+  "invoice_date": "01/08/2025",
+  "due_date": "15/09/2025",
+  "subtotal": 2854.93,
+  "tax_amount": 599.54,
+  "total_amount": 3454.47,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Network Setup",
+      "quantity": 2.0,
+      "unit_price": 317.36,
+      "line_total": 634.72
+    },
+    {
+      "description": "SEO Optimisation",
+      "quantity": 3.0,
+      "unit_price": 324.32,
+      "line_total": 972.96
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 249.45,
+      "line_total": 1247.25
+    }
+  ]
+}

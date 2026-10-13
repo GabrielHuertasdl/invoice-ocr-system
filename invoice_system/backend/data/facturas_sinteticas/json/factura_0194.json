@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0194.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0194.pdf",
+  "status": "completed",
+  "supplier_name": "RedBrick Studios",
+  "supplier_address": "27 Brick Lane, London, E1 6PU",
+  "client_name": "Atlas Trading Co.",
+  "invoice_number": "REC20250194",
+  "invoice_date": "23/03/2025",
+  "due_date": "22/05/2025",
+  "subtotal": 2988.52,
+  "tax_amount": 597.7,
+  "total_amount": 3586.22,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Database Administration",
+      "quantity": 5.0,
+      "unit_price": 146.28,
+      "line_total": 731.4
+    },
+    {
+      "description": "Social Media Management",
+      "quantity": 1.0,
+      "unit_price": 572.28,
+      "line_total": 572.28
+    },
+    {
+      "description": "Logo Design",
+      "quantity": 2.0,
+      "unit_price": 799.42,
+      "line_total": 1598.84
+    },
+    {
+      "description": "QA Testing",
+      "quantity": 1.0,
+      "unit_price": 86.0,
+      "line_total": 86.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "filename": "factura_0030.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0030.pdf",
+  "status": "completed",
+  "supplier_name": "Summit Logistics ApS",
+  "supplier_address": "Vesterbrogade 149, 1620 Copenhagen",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "FAC-0030",
+  "invoice_date": "3 Jan 2025",
+  "due_date": "17 Feb 2025",
+  "subtotal": 137.7,
+  "tax_amount": 34.42,
+  "total_amount": 172.12,
+  "currency": "EUR",
+  "tax_rate_pct": 25.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Project Management",
+      "quantity": 1.0,
+      "unit_price": 137.7,
+      "line_total": 137.7
+    }
+  ]
+}

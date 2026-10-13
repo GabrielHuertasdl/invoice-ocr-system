@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0053.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0053.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "Vanguard Enterprises",
+  "invoice_number": "INV-2022-0053",
+  "invoice_date": "07/30/2022",
+  "due_date": "08/14/2022",
+  "subtotal": 2903.37,
+  "tax_amount": 609.71,
+  "total_amount": 3513.08,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 117.24,
+      "line_total": 117.24
+    },
+    {
+      "description": "Social Media Management",
+      "quantity": 2.0,
+      "unit_price": 576.43,
+      "line_total": 1152.86
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 1.0,
+      "unit_price": 525.5,
+      "line_total": 525.5
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 1.0,
+      "unit_price": 440.42,
+      "line_total": 440.42
+    },
+    {
+      "description": "Database Administration",
+      "quantity": 5.0,
+      "unit_price": 133.47,
+      "line_total": 667.35
+    }
+  ]
+}

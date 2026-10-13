@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0188.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0188.pdf",
+  "status": "completed",
+  "supplier_name": "Alpine Consulting AG",
+  "supplier_address": "Bahnhofstrasse 22, 8001 Zürich",
+  "client_name": "SkyNet Industries",
+  "invoice_number": "FAC-0188",
+  "invoice_date": "03/12/2024",
+  "due_date": "05/11/2024",
+  "subtotal": 4887.28,
+  "tax_amount": 376.32,
+  "total_amount": 5263.6,
+  "currency": "CHF",
+  "tax_rate_pct": 7.7,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Video Production",
+      "quantity": 1.0,
+      "unit_price": 1706.93,
+      "line_total": 1706.93
+    },
+    {
+      "description": "API Integration",
+      "quantity": 1.0,
+      "unit_price": 549.59,
+      "line_total": 549.59
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 146.43,
+      "line_total": 732.15
+    },
+    {
+      "description": "Server Migration",
+      "quantity": 1.0,
+      "unit_price": 712.51,
+      "line_total": 712.51
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 10.0,
+      "unit_price": 118.61,
+      "line_total": 1186.1
+    }
+  ]
+}

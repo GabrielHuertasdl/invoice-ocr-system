@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0189.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0189.pdf",
+  "status": "completed",
+  "supplier_name": "Horizon Ventures S.r.l.",
+  "supplier_address": "Via Roma 55, 20121 Milano",
+  "client_name": "Pioneer Retail Ltd",
+  "invoice_number": "FAC-0189",
+  "invoice_date": "07/19/2022",
+  "due_date": "09/17/2022",
+  "subtotal": 2888.57,
+  "tax_amount": 635.49,
+  "total_amount": 3524.06,
+  "currency": "EUR",
+  "tax_rate_pct": 22.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 1.0,
+      "unit_price": 686.11,
+      "line_total": 686.11
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 1.0,
+      "unit_price": 63.16,
+      "line_total": 63.16
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 5.0,
+      "unit_price": 91.84,
+      "line_total": 459.2
+    },
+    {
+      "description": "Mobile App Development",
+      "quantity": 5.0,
+      "unit_price": 336.02,
+      "line_total": 1680.1
+    }
+  ]
+}

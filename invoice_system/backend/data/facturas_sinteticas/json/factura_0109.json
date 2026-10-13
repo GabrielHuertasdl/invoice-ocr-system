@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0109.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0109.pdf",
+  "status": "completed",
+  "supplier_name": "DesignStudio GmbH",
+  "supplier_address": "Hauptstrasse 10, 10115 Berlin",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "REC-2023-0109",
+  "invoice_date": "13/07/2023",
+  "due_date": "11/09/2023",
+  "subtotal": 1251.52,
+  "tax_amount": 237.79,
+  "total_amount": 1489.31,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 188.82,
+      "line_total": 377.64
+    },
+    {
+      "description": "Office Supplies",
+      "quantity": 1.0,
+      "unit_price": 89.62,
+      "line_total": 89.62
+    },
+    {
+      "description": "Training Sessions",
+      "quantity": 2.0,
+      "unit_price": 253.72,
+      "line_total": 507.44
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 1.0,
+      "unit_price": 130.28,
+      "line_total": 130.28
+    },
+    {
+      "description": "Subscription Services",
+      "quantity": 1.0,
+      "unit_price": 146.54,
+      "line_total": 146.54
+    }
+  ]
+}

@@ -240,6 +240,57 @@ tbody tr:hover { background: #f8fafc; }
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
+/* ── AI Search ──────────────────────────────────────────────────────────────── */
+.ai-search-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ai-search-input {
+  flex: 1;
+  font-size: 14px;
+}
+.ai-examples {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.ai-example-chip {
+  background: #eff6ff;
+  color: var(--color-primary);
+  border: 1px solid #bfdbfe;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: background .15s;
+}
+.ai-example-chip:hover { background: #dbeafe; }
+.ai-answer {
+  margin-top: 14px;
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+}
+.ai-answer-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: #15803d;
+  margin-bottom: 6px;
+}
+.ai-answer-text {
+  font-size: 14px;
+  color: var(--color-text);
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
 /* ── Utility ────────────────────────────────────────────────────────────────── */
 .text-muted { color: var(--color-text-muted); }
 .mt-4 { margin-top: 16px; }

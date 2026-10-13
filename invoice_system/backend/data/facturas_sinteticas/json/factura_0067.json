@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0067.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0067.pdf",
+  "status": "completed",
+  "supplier_name": "Coastal Media Ltd",
+  "supplier_address": "15 Harbour View, Dublin 2, D02 XY45",
+  "client_name": "Titan Manufacturing",
+  "invoice_number": "REC-0067",
+  "invoice_date": "20/06/2024",
+  "due_date": "05/07/2024",
+  "subtotal": 4647.99,
+  "tax_amount": 1069.04,
+  "total_amount": 5717.03,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Subscription Services",
+      "quantity": 5.0,
+      "unit_price": 152.49,
+      "line_total": 762.45
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 1.0,
+      "unit_price": 1466.95,
+      "line_total": 1466.95
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 1.0,
+      "unit_price": 143.9,
+      "line_total": 143.9
+    },
+    {
+      "description": "Legal Advisory",
+      "quantity": 5.0,
+      "unit_price": 403.14,
+      "line_total": 2015.7
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 258.99,
+      "line_total": 258.99
+    }
+  ]
+}

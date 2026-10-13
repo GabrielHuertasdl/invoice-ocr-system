@@ -84,3 +84,16 @@ class UploadResult(BaseModel):
 
 class UploadResponse(BaseModel):
     results: List[UploadResult]
+
+
+# ── AI endpoints ──────────────────────────────────────────────────────────────
+
+class QARequest(BaseModel):
+    invoice_id: int
+    question: str = Field(..., min_length=1, description="Question about the invoice in natural language")
+
+
+class QAResponse(BaseModel):
+    invoice_id: int
+    question: str
+    answer: str

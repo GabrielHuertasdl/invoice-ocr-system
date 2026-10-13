@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0057.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0057.pdf",
+  "status": "completed",
+  "supplier_name": "Nexus Software BV",
+  "supplier_address": "Keizersgracht 100, 1015 CL Amsterdam",
+  "client_name": "Cascade Systems",
+  "invoice_number": "REC-2022-0057",
+  "invoice_date": "05/26/2022",
+  "due_date": "06/25/2022",
+  "subtotal": 2469.39,
+  "tax_amount": 518.57,
+  "total_amount": 2987.96,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "HR Consulting",
+      "quantity": 1.0,
+      "unit_price": 265.3,
+      "line_total": 265.3
+    },
+    {
+      "description": "Logo Design",
+      "quantity": 3.0,
+      "unit_price": 682.63,
+      "line_total": 2047.89
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 156.2,
+      "line_total": 156.2
+    }
+  ]
+}

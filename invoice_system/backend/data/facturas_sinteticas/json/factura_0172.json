@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0172.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0172.pdf",
+  "status": "completed",
+  "supplier_name": "BrightMind Analytics",
+  "supplier_address": "101 Data Drive, Austin, TX 78701",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "INV20220172",
+  "invoice_date": "06/11/2022",
+  "due_date": "07/26/2022",
+  "subtotal": 8635.16,
+  "tax_amount": 712.4,
+  "total_amount": 9347.56,
+  "currency": "USD",
+  "tax_rate_pct": 8.25,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Brand Identity Design",
+      "quantity": 5.0,
+      "unit_price": 648.44,
+      "line_total": 3242.2
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 307.02,
+      "line_total": 307.02
+    },
+    {
+      "description": "SEO Optimisation",
+      "quantity": 10.0,
+      "unit_price": 296.12,
+      "line_total": 2961.2
+    },
+    {
+      "description": "Video Production",
+      "quantity": 1.0,
+      "unit_price": 2124.74,
+      "line_total": 2124.74
+    }
+  ]
+}

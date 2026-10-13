@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0170.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0170.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "GlobalTech Solutions",
+  "invoice_number": "BILL-0170",
+  "invoice_date": "01/11/2024",
+  "due_date": "31/12/2024",
+  "subtotal": 3966.45,
+  "tax_amount": 832.95,
+  "total_amount": 4799.4,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Mobile App Development",
+      "quantity": 3.0,
+      "unit_price": 293.36,
+      "line_total": 880.08
+    },
+    {
+      "description": "Network Setup",
+      "quantity": 5.0,
+      "unit_price": 469.46,
+      "line_total": 2347.3
+    },
+    {
+      "description": "Logo Design",
+      "quantity": 1.0,
+      "unit_price": 739.07,
+      "line_total": 739.07
+    }
+  ]
+}

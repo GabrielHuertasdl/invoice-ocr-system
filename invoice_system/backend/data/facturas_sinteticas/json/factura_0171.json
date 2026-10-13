@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0171.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0171.pdf",
+  "status": "completed",
+  "supplier_name": "RedBrick Studios",
+  "supplier_address": "27 Brick Lane, London, E1 6PU",
+  "client_name": "GlobalTech Solutions",
+  "invoice_number": "REC20240171",
+  "invoice_date": "20/12/2024",
+  "due_date": "03/02/2025",
+  "subtotal": 4538.03,
+  "tax_amount": 907.61,
+  "total_amount": 5445.64,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 10.0,
+      "unit_price": 93.92,
+      "line_total": 939.2
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 1.0,
+      "unit_price": 237.94,
+      "line_total": 237.94
+    },
+    {
+      "description": "API Integration",
+      "quantity": 1.0,
+      "unit_price": 364.21,
+      "line_total": 364.21
+    },
+    {
+      "description": "Office Supplies",
+      "quantity": 1.0,
+      "unit_price": 57.19,
+      "line_total": 57.19
+    },
+    {
+      "description": "Video Production",
+      "quantity": 3.0,
+      "unit_price": 979.83,
+      "line_total": 2939.49
+    }
+  ]
+}

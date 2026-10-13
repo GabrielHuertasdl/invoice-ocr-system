@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0165.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0165.pdf",
+  "status": "completed",
+  "supplier_name": "Sunrise Digital Lda.",
+  "supplier_address": "Rua Augusta 80, 1100-053 Lisboa",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "INV-0165",
+  "invoice_date": "04/02/2025",
+  "due_date": "21/03/2025",
+  "subtotal": 2532.34,
+  "tax_amount": 582.44,
+  "total_amount": 3114.78,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Data Analysis",
+      "quantity": 1.0,
+      "unit_price": 190.28,
+      "line_total": 190.28
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 3.0,
+      "unit_price": 687.72,
+      "line_total": 2063.16
+    },
+    {
+      "description": "QA Testing",
+      "quantity": 2.0,
+      "unit_price": 139.45,
+      "line_total": 278.9
+    }
+  ]
+}

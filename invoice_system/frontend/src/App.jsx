@@ -3,6 +3,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import InvoiceList from "./pages/InvoiceList";
 import UploadPage from "./pages/UploadPage";
 import InvoiceDetail from "./pages/InvoiceDetail";
+import AiSearch from "./pages/AiSearch";
 
 export default function App() {
   return (
@@ -16,6 +17,9 @@ export default function App() {
           <NavLink to="/upload" className={({ isActive }) => isActive ? "active" : ""}>
             Upload
           </NavLink>
+          <NavLink to="/ai" className={({ isActive }) => isActive ? "active" : ""}>
+            AI Search
+          </NavLink>
         </nav>
       </header>
 
@@ -24,6 +28,7 @@ export default function App() {
           <Route path="/" element={<InvoiceList />} />
           <Route path="/upload" element={<UploadPage />} />
           <Route path="/invoices/:id" element={<InvoiceDetail />} />
+          <Route path="/ai" element={<AiSearch />} />
         </Routes>
       </main>
     </div>

@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0075.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0075.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "SRV20240075",
+  "invoice_date": "20 Jan 2024",
+  "due_date": "5 Mar 2024",
+  "subtotal": 434.31,
+  "tax_amount": 91.21,
+  "total_amount": 525.52,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Content Writing",
+      "quantity": 2.0,
+      "unit_price": 71.23,
+      "line_total": 142.46
+    },
+    {
+      "description": "Subscription Services",
+      "quantity": 1.0,
+      "unit_price": 291.85,
+      "line_total": 291.85
+    }
+  ]
+}

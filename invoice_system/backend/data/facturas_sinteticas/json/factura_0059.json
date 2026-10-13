@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0059.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0059.pdf",
+  "status": "completed",
+  "supplier_name": "Zenith Consulting Inc.",
+  "supplier_address": "350 Fifth Avenue, New York, NY 10118",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "DOC-0059",
+  "invoice_date": "07/07/2022",
+  "due_date": "06/08/2022",
+  "subtotal": 2487.73,
+  "tax_amount": 220.79,
+  "total_amount": 2708.52,
+  "currency": "USD",
+  "tax_rate_pct": 8.88,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 167.38,
+      "line_total": 167.38
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 1.0,
+      "unit_price": 202.62,
+      "line_total": 202.62
+    },
+    {
+      "description": "Accounting Services",
+      "quantity": 5.0,
+      "unit_price": 314.68,
+      "line_total": 1573.4
+    },
+    {
+      "description": "Photography",
+      "quantity": 1.0,
+      "unit_price": 465.34,
+      "line_total": 465.34
+    },
+    {
+      "description": "Office Supplies",
+      "quantity": 3.0,
+      "unit_price": 26.33,
+      "line_total": 78.99
+    }
+  ]
+}

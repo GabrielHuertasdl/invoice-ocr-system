@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getInvoice, updateInvoice } from "../api/invoiceApi";
+import { getInvoice, updateInvoice, qaInvoice } from "../api/invoiceApi";
 import StatusBadge from "../components/StatusBadge";
 import LineItemsTable from "../components/LineItemsTable";
 
@@ -28,6 +28,27 @@ export default function InvoiceDetail() {
   const [saved, setSaved]     = useState(false);
   const [loading, setLoading] = useState(true);
   const [showRaw, setShowRaw] = useState(false);
+
+  // AI QA state
+  const [qaQuestion, setQaQuestion]   = useState("");
+  const [qaAnswer, setQaAnswer]       = useState(null);
+  const [qaLoading, setQaLoading]     = useState(false);
+  const [qaError, setQaError]         = useState(null);
+
+  const handleAsk = async () => {
+    if (!qaQuestion.trim()) return;
+    setQaLoading(true);
+    setQaError(null);
+    setQaAnswer(null);
+    try {
+      const res = await qaInvoice(Number(id), qaQuestion.trim());
+      setQaAnswer(res.answer);
+    } catch (e) {
+      setQaError(e.message);
+    } finally {
+      setQaLoading(false);
+    }
+  };
 
   useEffect(() => {
     getInvoice(id)
@@ -168,6 +189,43 @@ export default function InvoiceDetail() {
           readOnly={!editing}
           onChange={setLineItems}
         />
+      </div>
+
+      {/* Ask AI */}
+      <div className="card">
+        <div className="card-title">Ask AI about this invoice</div>
+        <div className="ai-search-box">
+          <input
+            className="form-control ai-search-input"
+            type="text"
+            placeholder='e.g. "What is the total amount?" or "List all line items"'
+            value={qaQuestion}
+            onChange={(e) => setQaQuestion(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && handleAsk()}
+            disabled={qaLoading}
+          />
+          <button
+            className="btn btn-primary"
+            onClick={handleAsk}
+            disabled={qaLoading || !qaQuestion.trim()}
+          >
+            {qaLoading ? "Thinking…" : "Ask AI"}
+          </button>
+        </div>
+
+        {qaError && (
+          <div className="alert alert-error" style={{ marginTop: 12 }}>
+            {qaError.includes("not installed") || qaError.includes("not set")
+              ? "AI not configured — set LLM_API_KEY in .env and run: pip install anthropic"
+              : qaError}
+          </div>
+        )}
+        {qaAnswer && (
+          <div className="ai-answer">
+            <div className="ai-answer-label">Answer</div>
+            <div className="ai-answer-text">{qaAnswer}</div>
+          </div>
+        )}
       </div>
 
       {/* Raw OCR text (collapsible) */}

@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0200.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0200.pdf",
+  "status": "completed",
+  "supplier_name": "ClearPath IT S.L.",
+  "supplier_address": "Gran Via 23, 48001 Bilbao",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "DOC-2025-0200",
+  "invoice_date": "8 Jan 2025",
+  "due_date": "7 Feb 2025",
+  "subtotal": 12393.15,
+  "tax_amount": 2602.56,
+  "total_amount": 14995.71,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Video Production",
+      "quantity": 10.0,
+      "unit_price": 1168.36,
+      "line_total": 11683.6
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 5.0,
+      "unit_price": 81.15,
+      "line_total": 405.75
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 303.8,
+      "line_total": 303.8
+    }
+  ]
+}

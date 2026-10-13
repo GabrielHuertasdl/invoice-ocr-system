@@ -1,0 +1,26 @@
+{
+  "filename": "factura_0089.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0089.pdf",
+  "status": "completed",
+  "supplier_name": "TechSupplies Inc.",
+  "supplier_address": "789 Innovation Ave, New York, NY 10001",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "SRV20230089",
+  "invoice_date": "2 Oct 2023",
+  "due_date": "16 Nov 2023",
+  "subtotal": 226.85,
+  "tax_amount": 18.15,
+  "total_amount": 245.0,
+  "currency": "USD",
+  "tax_rate_pct": 8.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 226.85,
+      "line_total": 226.85
+    }
+  ]
+}

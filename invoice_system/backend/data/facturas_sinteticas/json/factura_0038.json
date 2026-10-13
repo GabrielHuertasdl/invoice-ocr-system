@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0038.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0038.pdf",
+  "status": "completed",
+  "supplier_name": "BrightMind Analytics",
+  "supplier_address": "101 Data Drive, Austin, TX 78701",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "FAC20240038",
+  "invoice_date": "19 Sep 2024",
+  "due_date": "19 Oct 2024",
+  "subtotal": 1736.8,
+  "tax_amount": 143.29,
+  "total_amount": 1880.09,
+  "currency": "USD",
+  "tax_rate_pct": 8.25,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Brand Identity Design",
+      "quantity": 1.0,
+      "unit_price": 714.3,
+      "line_total": 714.3
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 3.0,
+      "unit_price": 107.02,
+      "line_total": 321.06
+    },
+    {
+      "description": "Video Production",
+      "quantity": 1.0,
+      "unit_price": 701.44,
+      "line_total": 701.44
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0199.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0199.pdf",
+  "status": "completed",
+  "supplier_name": "Ferro Industrias S.A.",
+  "supplier_address": "Avda. Diagonal 420, 08037 Barcelona",
+  "client_name": "Titan Manufacturing",
+  "invoice_number": "BILL20250199",
+  "invoice_date": "3 Jun 2025",
+  "due_date": "2 Aug 2025",
+  "subtotal": 4429.78,
+  "tax_amount": 930.25,
+  "total_amount": 5360.03,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Network Setup",
+      "quantity": 10.0,
+      "unit_price": 424.7,
+      "line_total": 4247.0
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 182.78,
+      "line_total": 182.78
+    }
+  ]
+}

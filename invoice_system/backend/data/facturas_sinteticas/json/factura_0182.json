@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0182.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0182.pdf",
+  "status": "completed",
+  "supplier_name": "Alpine Consulting AG",
+  "supplier_address": "Bahnhofstrasse 22, 8001 Zürich",
+  "client_name": "Cascade Systems",
+  "invoice_number": "SRV-0182",
+  "invoice_date": "12 Oct 2024",
+  "due_date": "11 Nov 2024",
+  "subtotal": 1398.59,
+  "tax_amount": 107.69,
+  "total_amount": 1506.28,
+  "currency": "CHF",
+  "tax_rate_pct": 7.7,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Project Management",
+      "quantity": 1.0,
+      "unit_price": 144.88,
+      "line_total": 144.88
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 436.65,
+      "line_total": 873.3
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 104.33,
+      "line_total": 104.33
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 2.0,
+      "unit_price": 138.04,
+      "line_total": 276.08
+    }
+  ]
+}

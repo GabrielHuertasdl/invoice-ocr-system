@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0068.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0068.pdf",
+  "status": "completed",
+  "supplier_name": "ClearPath IT S.L.",
+  "supplier_address": "Gran Via 23, 48001 Bilbao",
+  "client_name": "FastGrow Corp",
+  "invoice_number": "FAC-0068",
+  "invoice_date": "07/07/2025",
+  "due_date": "09/05/2025",
+  "subtotal": 6678.35,
+  "tax_amount": 1402.45,
+  "total_amount": 8080.8,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Mobile App Development",
+      "quantity": 1.0,
+      "unit_price": 299.01,
+      "line_total": 299.01
+    },
+    {
+      "description": "Network Setup",
+      "quantity": 5.0,
+      "unit_price": 499.1,
+      "line_total": 2495.5
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 1.0,
+      "unit_price": 72.65,
+      "line_total": 72.65
+    },
+    {
+      "description": "SEO Optimisation",
+      "quantity": 5.0,
+      "unit_price": 328.11,
+      "line_total": 1640.55
+    },
+    {
+      "description": "Logo Design",
+      "quantity": 2.0,
+      "unit_price": 1085.32,
+      "line_total": 2170.64
+    }
+  ]
+}

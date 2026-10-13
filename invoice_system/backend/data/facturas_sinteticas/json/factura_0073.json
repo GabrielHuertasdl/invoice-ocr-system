@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0073.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0073.pdf",
+  "status": "completed",
+  "supplier_name": "TechSupplies Inc.",
+  "supplier_address": "789 Innovation Ave, New York, NY 10001",
+  "client_name": "Quantum Leap Ltd",
+  "invoice_number": "SRV-0073",
+  "invoice_date": "14 Oct 2024",
+  "due_date": "28 Nov 2024",
+  "subtotal": 1514.08,
+  "tax_amount": 121.13,
+  "total_amount": 1635.21,
+  "currency": "USD",
+  "tax_rate_pct": 8.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Network Setup",
+      "quantity": 5.0,
+      "unit_price": 273.31,
+      "line_total": 1366.55
+    },
+    {
+      "description": "HR Consulting",
+      "quantity": 1.0,
+      "unit_price": 147.53,
+      "line_total": 147.53
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0077.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0077.pdf",
+  "status": "completed",
+  "supplier_name": "Pacific Freight Co.",
+  "supplier_address": "500 Ocean Blvd, Los Angeles, CA 90001",
+  "client_name": "Titan Manufacturing",
+  "invoice_number": "FAC-0077",
+  "invoice_date": "31 Jan 2024",
+  "due_date": "15 Feb 2024",
+  "subtotal": 1690.26,
+  "tax_amount": 160.57,
+  "total_amount": 1850.83,
+  "currency": "USD",
+  "tax_rate_pct": 9.5,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Social Media Management",
+      "quantity": 3.0,
+      "unit_price": 447.82,
+      "line_total": 1343.46
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 3.0,
+      "unit_price": 115.6,
+      "line_total": 346.8
+    }
+  ]
+}

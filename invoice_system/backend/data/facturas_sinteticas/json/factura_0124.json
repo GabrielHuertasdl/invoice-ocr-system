@@ -1,0 +1,26 @@
+{
+  "filename": "factura_0124.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0124.pdf",
+  "status": "completed",
+  "supplier_name": "Nordic Systems AB",
+  "supplier_address": "Storgatan 5, 111 29 Stockholm",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "DOC-2024-0124",
+  "invoice_date": "11/07/2024",
+  "due_date": "12/07/2024",
+  "subtotal": 1012.86,
+  "tax_amount": 253.22,
+  "total_amount": 1266.08,
+  "currency": "EUR",
+  "tax_rate_pct": 25.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 1.0,
+      "unit_price": 1012.86,
+      "line_total": 1012.86
+    }
+  ]
+}

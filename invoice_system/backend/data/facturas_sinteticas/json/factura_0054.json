@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0054.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0054.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "FAC-0054",
+  "invoice_date": "15 Sep 2023",
+  "due_date": "30 Sep 2023",
+  "subtotal": 720.27,
+  "tax_amount": 151.26,
+  "total_amount": 871.53,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Project Management",
+      "quantity": 3.0,
+      "unit_price": 126.44,
+      "line_total": 379.32
+    },
+    {
+      "description": "QA Testing",
+      "quantity": 3.0,
+      "unit_price": 113.65,
+      "line_total": 340.95
+    }
+  ]
+}

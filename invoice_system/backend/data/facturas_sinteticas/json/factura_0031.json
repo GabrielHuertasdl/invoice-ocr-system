@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0031.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0031.pdf",
+  "status": "completed",
+  "supplier_name": "BrightMind Analytics",
+  "supplier_address": "101 Data Drive, Austin, TX 78701",
+  "client_name": "GlobalTech Solutions",
+  "invoice_number": "SRV20250031",
+  "invoice_date": "06/05/2025",
+  "due_date": "05/07/2025",
+  "subtotal": 2086.3,
+  "tax_amount": 172.12,
+  "total_amount": 2258.42,
+  "currency": "USD",
+  "tax_rate_pct": 8.25,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Legal Advisory",
+      "quantity": 3.0,
+      "unit_price": 461.84,
+      "line_total": 1385.52
+    },
+    {
+      "description": "HR Consulting",
+      "quantity": 3.0,
+      "unit_price": 128.91,
+      "line_total": 386.73
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 1.0,
+      "unit_price": 314.05,
+      "line_total": 314.05
+    }
+  ]
+}

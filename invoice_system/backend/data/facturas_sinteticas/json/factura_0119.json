@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0119.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0119.pdf",
+  "status": "completed",
+  "supplier_name": "Nexus Software BV",
+  "supplier_address": "Keizersgracht 100, 1015 CL Amsterdam",
+  "client_name": "Pioneer Retail Ltd",
+  "invoice_number": "REC-0119",
+  "invoice_date": "13/06/2022",
+  "due_date": "28/07/2022",
+  "subtotal": 2788.65,
+  "tax_amount": 585.62,
+  "total_amount": 3374.27,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 97.41,
+      "line_total": 97.41
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 1.0,
+      "unit_price": 1158.74,
+      "line_total": 1158.74
+    },
+    {
+      "description": "Network Setup",
+      "quantity": 5.0,
+      "unit_price": 306.5,
+      "line_total": 1532.5
+    }
+  ]
+}

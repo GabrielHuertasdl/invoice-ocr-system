@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0052.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0052.pdf",
+  "status": "completed",
+  "supplier_name": "Nordic Systems AB",
+  "supplier_address": "Storgatan 5, 111 29 Stockholm",
+  "client_name": "Retail Dynamics S.A.",
+  "invoice_number": "BILL20240052",
+  "invoice_date": "18/09/2024",
+  "due_date": "02/11/2024",
+  "subtotal": 2294.14,
+  "tax_amount": 573.53,
+  "total_amount": 2867.67,
+  "currency": "EUR",
+  "tax_rate_pct": 25.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Accounting Services",
+      "quantity": 1.0,
+      "unit_price": 441.42,
+      "line_total": 441.42
+    },
+    {
+      "description": "API Integration",
+      "quantity": 1.0,
+      "unit_price": 436.49,
+      "line_total": 436.49
+    },
+    {
+      "description": "Network Setup",
+      "quantity": 5.0,
+      "unit_price": 255.79,
+      "line_total": 1278.95
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 82.73,
+      "line_total": 82.73
+    },
+    {
+      "description": "Project Management",
+      "quantity": 1.0,
+      "unit_price": 54.55,
+      "line_total": 54.55
+    }
+  ]
+}

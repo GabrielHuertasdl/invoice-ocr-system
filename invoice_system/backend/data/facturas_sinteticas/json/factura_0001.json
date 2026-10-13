@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0001.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0001.pdf",
+  "status": "completed",
+  "supplier_name": "GlobalTech Solutions",
+  "supplier_address": "456 Tech Park, Manchester, M1 2WD",
+  "client_name": "GlobalTech Solutions",
+  "invoice_number": "BILL20230001",
+  "invoice_date": "18 Jul 2023",
+  "due_date": "17 Aug 2023",
+  "subtotal": 1440.31,
+  "tax_amount": 288.06,
+  "total_amount": 1728.37,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 141.0,
+      "line_total": 705.0
+    },
+    {
+      "description": "Legal Advisory",
+      "quantity": 1.0,
+      "unit_price": 735.31,
+      "line_total": 735.31
+    }
+  ]
+}

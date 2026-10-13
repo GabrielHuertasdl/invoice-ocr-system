@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0041.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0041.pdf",
+  "status": "completed",
+  "supplier_name": "Nordic Systems AB",
+  "supplier_address": "Storgatan 5, 111 29 Stockholm",
+  "client_name": "Titan Manufacturing",
+  "invoice_number": "REC20220041",
+  "invoice_date": "09/19/2022",
+  "due_date": "10/04/2022",
+  "subtotal": 1312.58,
+  "tax_amount": 328.14,
+  "total_amount": 1640.72,
+  "currency": "EUR",
+  "tax_rate_pct": 25.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "DevOps Consulting",
+      "quantity": 1.0,
+      "unit_price": 260.69,
+      "line_total": 260.69
+    },
+    {
+      "description": "Photography",
+      "quantity": 1.0,
+      "unit_price": 720.11,
+      "line_total": 720.11
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 2.0,
+      "unit_price": 60.06,
+      "line_total": 120.12
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 2.0,
+      "unit_price": 105.83,
+      "line_total": 211.66
+    }
+  ]
+}

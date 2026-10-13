@@ -1,0 +1,26 @@
+{
+  "filename": "factura_0102.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0102.pdf",
+  "status": "completed",
+  "supplier_name": "TechSupplies Inc.",
+  "supplier_address": "789 Innovation Ave, New York, NY 10001",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "DOC20250102",
+  "invoice_date": "18 Aug 2025",
+  "due_date": "2 Oct 2025",
+  "subtotal": 1283.5,
+  "tax_amount": 102.68,
+  "total_amount": 1386.18,
+  "currency": "USD",
+  "tax_rate_pct": 8.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 5.0,
+      "unit_price": 256.7,
+      "line_total": 1283.5
+    }
+  ]
+}

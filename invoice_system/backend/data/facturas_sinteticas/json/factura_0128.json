@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0128.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0128.pdf",
+  "status": "completed",
+  "supplier_name": "Sunrise Digital Lda.",
+  "supplier_address": "Rua Augusta 80, 1100-053 Lisboa",
+  "client_name": "Vanguard Enterprises",
+  "invoice_number": "BILL-0128",
+  "invoice_date": "17 Jul 2023",
+  "due_date": "16 Aug 2023",
+  "subtotal": 1073.63,
+  "tax_amount": 246.93,
+  "total_amount": 1320.56,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Network Setup",
+      "quantity": 1.0,
+      "unit_price": 325.9,
+      "line_total": 325.9
+    },
+    {
+      "description": "QA Testing",
+      "quantity": 3.0,
+      "unit_price": 113.26,
+      "line_total": 339.78
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 5.0,
+      "unit_price": 81.59,
+      "line_total": 407.95
+    }
+  ]
+}

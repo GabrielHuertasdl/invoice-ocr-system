@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0044.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0044.pdf",
+  "status": "completed",
+  "supplier_name": "GlobalTech Solutions",
+  "supplier_address": "456 Tech Park, Manchester, M1 2WD",
+  "client_name": "Atlas Trading Co.",
+  "invoice_number": "INV-0044",
+  "invoice_date": "01/10/2023",
+  "due_date": "30/11/2023",
+  "subtotal": 18117.6,
+  "tax_amount": 3623.52,
+  "total_amount": 21741.12,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Video Production",
+      "quantity": 5.0,
+      "unit_price": 2226.54,
+      "line_total": 11132.7
+    },
+    {
+      "description": "Security Audit",
+      "quantity": 5.0,
+      "unit_price": 518.56,
+      "line_total": 2592.8
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 10.0,
+      "unit_price": 168.15,
+      "line_total": 1681.5
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 10.0,
+      "unit_price": 271.06,
+      "line_total": 2710.6
+    }
+  ]
+}

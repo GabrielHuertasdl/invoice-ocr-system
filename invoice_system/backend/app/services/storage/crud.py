@@ -45,6 +45,18 @@ def update_invoice(db: Session, invoice: Invoice, data: dict) -> Invoice:
     return invoice
 
 
+def list_completed_invoices_with_supplier(db: Session) -> List[Invoice]:
+    """Return all completed invoices that have a non-null supplier_name."""
+    return (
+        db.query(Invoice)
+        .filter(
+            Invoice.status == ProcessingStatus.completed,
+            Invoice.supplier_name.isnot(None),
+        )
+        .all()
+    )
+
+
 def save_line_items(db: Session, invoice: Invoice, items: List[dict]) -> None:
     """Replace all line items for an invoice with the provided list."""
     db.query(LineItem).filter(LineItem.invoice_id == invoice.id).delete()

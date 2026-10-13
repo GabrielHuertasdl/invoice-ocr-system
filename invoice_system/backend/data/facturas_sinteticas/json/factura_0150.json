@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0150.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0150.pdf",
+  "status": "completed",
+  "supplier_name": "Zenith Consulting Inc.",
+  "supplier_address": "350 Fifth Avenue, New York, NY 10118",
+  "client_name": "Titan Manufacturing",
+  "invoice_number": "REC-0150",
+  "invoice_date": "10 Apr 2024",
+  "due_date": "9 Jun 2024",
+  "subtotal": 4089.83,
+  "tax_amount": 362.97,
+  "total_amount": 4452.8,
+  "currency": "USD",
+  "tax_rate_pct": 8.88,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 1.0,
+      "unit_price": 310.87,
+      "line_total": 310.87
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 1.0,
+      "unit_price": 126.84,
+      "line_total": 126.84
+    },
+    {
+      "description": "Data Analysis",
+      "quantity": 2.0,
+      "unit_price": 81.16,
+      "line_total": 162.32
+    },
+    {
+      "description": "Photography",
+      "quantity": 10.0,
+      "unit_price": 341.31,
+      "line_total": 3413.1
+    },
+    {
+      "description": "Project Management",
+      "quantity": 1.0,
+      "unit_price": 76.7,
+      "line_total": 76.7
+    }
+  ]
+}

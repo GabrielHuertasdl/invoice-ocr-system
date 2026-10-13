@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0174.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0174.pdf",
+  "status": "completed",
+  "supplier_name": "Coastal Media Ltd",
+  "supplier_address": "15 Harbour View, Dublin 2, D02 XY45",
+  "client_name": "Atlas Trading Co.",
+  "invoice_number": "INV-0174",
+  "invoice_date": "17/12/2024",
+  "due_date": "01/01/2025",
+  "subtotal": 3876.78,
+  "tax_amount": 891.66,
+  "total_amount": 4768.44,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 3.0,
+      "unit_price": 1081.31,
+      "line_total": 3243.93
+    },
+    {
+      "description": "Maintenance Contract",
+      "quantity": 1.0,
+      "unit_price": 632.85,
+      "line_total": 632.85
+    }
+  ]
+}

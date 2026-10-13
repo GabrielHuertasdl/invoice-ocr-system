@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0167.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0167.pdf",
+  "status": "completed",
+  "supplier_name": "RedBrick Studios",
+  "supplier_address": "27 Brick Lane, London, E1 6PU",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "REC20230167",
+  "invoice_date": "06/02/2023",
+  "due_date": "23/03/2023",
+  "subtotal": 1631.64,
+  "tax_amount": 326.33,
+  "total_amount": 1957.97,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Data Analysis",
+      "quantity": 2.0,
+      "unit_price": 221.67,
+      "line_total": 443.34
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 5.0,
+      "unit_price": 237.66,
+      "line_total": 1188.3
+    }
+  ]
+}

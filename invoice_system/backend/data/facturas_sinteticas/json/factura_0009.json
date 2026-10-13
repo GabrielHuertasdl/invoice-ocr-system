@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0009.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0009.pdf",
+  "status": "completed",
+  "supplier_name": "Zenith Consulting Inc.",
+  "supplier_address": "350 Fifth Avenue, New York, NY 10118",
+  "client_name": "Startup Ventures LLC",
+  "invoice_number": "INV-0009",
+  "invoice_date": "02/21/2024",
+  "due_date": "04/21/2024",
+  "subtotal": 6167.71,
+  "tax_amount": 547.38,
+  "total_amount": 6715.09,
+  "currency": "USD",
+  "tax_rate_pct": 8.88,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Content Writing",
+      "quantity": 5.0,
+      "unit_price": 66.04,
+      "line_total": 330.2
+    },
+    {
+      "description": "QA Testing",
+      "quantity": 10.0,
+      "unit_price": 139.63,
+      "line_total": 1396.3
+    },
+    {
+      "description": "Hardware Procurement",
+      "quantity": 5.0,
+      "unit_price": 680.29,
+      "line_total": 3401.45
+    },
+    {
+      "description": "Web Development Services",
+      "quantity": 1.0,
+      "unit_price": 118.04,
+      "line_total": 118.04
+    },
+    {
+      "description": "Photography",
+      "quantity": 2.0,
+      "unit_price": 460.86,
+      "line_total": 921.72
+    }
+  ]
+}

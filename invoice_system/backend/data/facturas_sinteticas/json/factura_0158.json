@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0158.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0158.pdf",
+  "status": "completed",
+  "supplier_name": "DataFlow GmbH",
+  "supplier_address": "Unter den Linden 77, 10117 Berlin",
+  "client_name": "Vanguard Enterprises",
+  "invoice_number": "FAC-2025-0158",
+  "invoice_date": "20 Jan 2025",
+  "due_date": "21 Mar 2025",
+  "subtotal": 4911.11,
+  "tax_amount": 933.11,
+  "total_amount": 5844.22,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Data Analysis",
+      "quantity": 1.0,
+      "unit_price": 106.37,
+      "line_total": 106.37
+    },
+    {
+      "description": "Office Supplies",
+      "quantity": 5.0,
+      "unit_price": 94.37,
+      "line_total": 471.85
+    },
+    {
+      "description": "SEO Optimisation",
+      "quantity": 1.0,
+      "unit_price": 329.65,
+      "line_total": 329.65
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 2.0,
+      "unit_price": 1290.43,
+      "line_total": 2580.86
+    },
+    {
+      "description": "Server Migration",
+      "quantity": 1.0,
+      "unit_price": 1422.38,
+      "line_total": 1422.38
+    }
+  ]
+}

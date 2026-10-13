@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0022.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0022.pdf",
+  "status": "completed",
+  "supplier_name": "DataFlow GmbH",
+  "supplier_address": "Unter den Linden 77, 10117 Berlin",
+  "client_name": "Atlas Trading Co.",
+  "invoice_number": "SRV-0022",
+  "invoice_date": "24 Jul 2022",
+  "due_date": "8 Aug 2022",
+  "subtotal": 4953.97,
+  "tax_amount": 941.25,
+  "total_amount": 5895.22,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 1.0,
+      "unit_price": 614.11,
+      "line_total": 614.11
+    },
+    {
+      "description": "API Integration",
+      "quantity": 1.0,
+      "unit_price": 827.56,
+      "line_total": 827.56
+    },
+    {
+      "description": "Content Writing",
+      "quantity": 2.0,
+      "unit_price": 44.25,
+      "line_total": 88.5
+    },
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 433.5,
+      "line_total": 2167.5
+    },
+    {
+      "description": "Subscription Services",
+      "quantity": 10.0,
+      "unit_price": 125.63,
+      "line_total": 1256.3
+    }
+  ]
+}

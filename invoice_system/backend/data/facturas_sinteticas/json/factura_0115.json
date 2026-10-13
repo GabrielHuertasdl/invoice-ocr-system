@@ -1,0 +1,26 @@
+{
+  "filename": "factura_0115.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0115.pdf",
+  "status": "completed",
+  "supplier_name": "GlobalTech Solutions",
+  "supplier_address": "456 Tech Park, Manchester, M1 2WD",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "SRV-2023-0115",
+  "invoice_date": "12 Nov 2023",
+  "due_date": "12 Dec 2023",
+  "subtotal": 13190.2,
+  "tax_amount": 2638.04,
+  "total_amount": 15828.24,
+  "currency": "GBP",
+  "tax_rate_pct": 20.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Server Migration",
+      "quantity": 10.0,
+      "unit_price": 1319.02,
+      "line_total": 13190.2
+    }
+  ]
+}

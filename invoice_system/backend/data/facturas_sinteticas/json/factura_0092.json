@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0092.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0092.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "Cascade Systems",
+  "invoice_number": "BILL-2022-0092",
+  "invoice_date": "4 Mar 2022",
+  "due_date": "19 Mar 2022",
+  "subtotal": 7051.37,
+  "tax_amount": 1480.79,
+  "total_amount": 8532.16,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 1.0,
+      "unit_price": 441.67,
+      "line_total": 441.67
+    },
+    {
+      "description": "Data Analysis",
+      "quantity": 10.0,
+      "unit_price": 202.67,
+      "line_total": 2026.7
+    },
+    {
+      "description": "Training Sessions",
+      "quantity": 3.0,
+      "unit_price": 385.35,
+      "line_total": 1156.05
+    },
+    {
+      "description": "Brand Identity Design",
+      "quantity": 1.0,
+      "unit_price": 493.45,
+      "line_total": 493.45
+    },
+    {
+      "description": "Software Licence",
+      "quantity": 10.0,
+      "unit_price": 293.35,
+      "line_total": 2933.5
+    }
+  ]
+}

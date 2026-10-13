@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0015.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0015.pdf",
+  "status": "completed",
+  "supplier_name": "Alpine Consulting AG",
+  "supplier_address": "Bahnhofstrasse 22, 8001 Zürich",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "DOC-0015",
+  "invoice_date": "21 Sep 2024",
+  "due_date": "21 Oct 2024",
+  "subtotal": 8302.78,
+  "tax_amount": 639.31,
+  "total_amount": 8942.09,
+  "currency": "CHF",
+  "tax_rate_pct": 7.7,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Cloud Hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 330.48,
+      "line_total": 330.48
+    },
+    {
+      "description": "Legal Advisory",
+      "quantity": 10.0,
+      "unit_price": 670.77,
+      "line_total": 6707.7
+    },
+    {
+      "description": "Subscription Services",
+      "quantity": 1.0,
+      "unit_price": 151.76,
+      "line_total": 151.76
+    },
+    {
+      "description": "Maintenance Contract",
+      "quantity": 2.0,
+      "unit_price": 367.85,
+      "line_total": 735.7
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 2.0,
+      "unit_price": 188.57,
+      "line_total": 377.14
+    }
+  ]
+}

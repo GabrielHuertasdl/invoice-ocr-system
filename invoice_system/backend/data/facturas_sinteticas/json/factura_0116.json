@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0116.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0116.pdf",
+  "status": "completed",
+  "supplier_name": "DataFlow GmbH",
+  "supplier_address": "Unter den Linden 77, 10117 Berlin",
+  "client_name": "Cascade Systems",
+  "invoice_number": "INV-2025-0116",
+  "invoice_date": "07/17/2025",
+  "due_date": "08/16/2025",
+  "subtotal": 929.8,
+  "tax_amount": 176.66,
+  "total_amount": 1106.46,
+  "currency": "EUR",
+  "tax_rate_pct": 19.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "UI/UX Design",
+      "quantity": 2.0,
+      "unit_price": 168.67,
+      "line_total": 337.34
+    },
+    {
+      "description": "Video Production",
+      "quantity": 1.0,
+      "unit_price": 592.46,
+      "line_total": 592.46
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0195.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0195.pdf",
+  "status": "completed",
+  "supplier_name": "Zenith Consulting Inc.",
+  "supplier_address": "350 Fifth Avenue, New York, NY 10118",
+  "client_name": "GlobalTech Solutions",
+  "invoice_number": "DOC-0195",
+  "invoice_date": "01/20/2022",
+  "due_date": "03/21/2022",
+  "subtotal": 2047.63,
+  "tax_amount": 181.73,
+  "total_amount": 2229.36,
+  "currency": "USD",
+  "tax_rate_pct": 8.88,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Security Audit",
+      "quantity": 3.0,
+      "unit_price": 645.55,
+      "line_total": 1936.65
+    },
+    {
+      "description": "Office Supplies",
+      "quantity": 2.0,
+      "unit_price": 55.49,
+      "line_total": 110.98
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filename": "factura_0168.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0168.pdf",
+  "status": "completed",
+  "supplier_name": "Horizon Ventures S.r.l.",
+  "supplier_address": "Via Roma 55, 20121 Milano",
+  "client_name": "Cascade Systems",
+  "invoice_number": "FAC-0168",
+  "invoice_date": "1 Oct 2024",
+  "due_date": "30 Nov 2024",
+  "subtotal": 971.47,
+  "tax_amount": 213.72,
+  "total_amount": 1185.19,
+  "currency": "EUR",
+  "tax_rate_pct": 22.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Legal Advisory",
+      "quantity": 1.0,
+      "unit_price": 411.31,
+      "line_total": 411.31
+    },
+    {
+      "description": "HR Consulting",
+      "quantity": 2.0,
+      "unit_price": 280.08,
+      "line_total": 560.16
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0028.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0028.pdf",
+  "status": "completed",
+  "supplier_name": "Coastal Media Ltd",
+  "supplier_address": "15 Harbour View, Dublin 2, D02 XY45",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "DOC20250028",
+  "invoice_date": "10/03/2025",
+  "due_date": "11/02/2025",
+  "subtotal": 11599.06,
+  "tax_amount": 2667.78,
+  "total_amount": 14266.84,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Database Administration",
+      "quantity": 10.0,
+      "unit_price": 81.89,
+      "line_total": 818.9
+    },
+    {
+      "description": "HR Consulting",
+      "quantity": 2.0,
+      "unit_price": 109.68,
+      "line_total": 219.36
+    },
+    {
+      "description": "Video Production",
+      "quantity": 10.0,
+      "unit_price": 1056.08,
+      "line_total": 10560.8
+    }
+  ]
+}

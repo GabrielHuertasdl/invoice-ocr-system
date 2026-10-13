@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0130.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0130.pdf",
+  "status": "completed",
+  "supplier_name": "Sunrise Digital Lda.",
+  "supplier_address": "Rua Augusta 80, 1100-053 Lisboa",
+  "client_name": "Polaris Media Group",
+  "invoice_number": "SRV-2024-0130",
+  "invoice_date": "3 May 2024",
+  "due_date": "18 May 2024",
+  "subtotal": 8424.95,
+  "tax_amount": 1937.74,
+  "total_amount": 10362.69,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Maintenance Contract",
+      "quantity": 1.0,
+      "unit_price": 749.34,
+      "line_total": 749.34
+    },
+    {
+      "description": "Logo Design",
+      "quantity": 10.0,
+      "unit_price": 734.65,
+      "line_total": 7346.5
+    },
+    {
+      "description": "QA Testing",
+      "quantity": 2.0,
+      "unit_price": 132.66,
+      "line_total": 265.32
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 1.0,
+      "unit_price": 63.79,
+      "line_total": 63.79
+    }
+  ]
+}

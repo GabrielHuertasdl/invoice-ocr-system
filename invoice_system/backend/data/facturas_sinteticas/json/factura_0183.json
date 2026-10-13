@@ -1,0 +1,44 @@
+{
+  "filename": "factura_0183.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0183.pdf",
+  "status": "completed",
+  "supplier_name": "Ibérica Servicios S.L.",
+  "supplier_address": "Calle Mayor 15, 28013 Madrid",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "DOC20250183",
+  "invoice_date": "05/20/2025",
+  "due_date": "06/19/2025",
+  "subtotal": 4490.37,
+  "tax_amount": 942.98,
+  "total_amount": 5433.35,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Software Licence",
+      "quantity": 5.0,
+      "unit_price": 640.92,
+      "line_total": 3204.6
+    },
+    {
+      "description": "Database Administration",
+      "quantity": 3.0,
+      "unit_price": 124.01,
+      "line_total": 372.03
+    },
+    {
+      "description": "Data Analysis",
+      "quantity": 1.0,
+      "unit_price": 212.94,
+      "line_total": 212.94
+    },
+    {
+      "description": "Technical Support (hours)",
+      "quantity": 10.0,
+      "unit_price": 70.08,
+      "line_total": 700.8
+    }
+  ]
+}

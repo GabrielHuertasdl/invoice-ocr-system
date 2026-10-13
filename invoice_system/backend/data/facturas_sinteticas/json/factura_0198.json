@@ -1,0 +1,38 @@
+{
+  "filename": "factura_0198.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0198.pdf",
+  "status": "completed",
+  "supplier_name": "Alpine Consulting AG",
+  "supplier_address": "Bahnhofstrasse 22, 8001 Zürich",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "BILL-0198",
+  "invoice_date": "10/07/2024",
+  "due_date": "24/08/2024",
+  "subtotal": 1517.04,
+  "tax_amount": 116.81,
+  "total_amount": 1633.85,
+  "currency": "CHF",
+  "tax_rate_pct": 7.7,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Hardware Procurement",
+      "quantity": 1.0,
+      "unit_price": 990.33,
+      "line_total": 990.33
+    },
+    {
+      "description": "Office Supplies",
+      "quantity": 1.0,
+      "unit_price": 79.81,
+      "line_total": 79.81
+    },
+    {
+      "description": "UI/UX Design",
+      "quantity": 5.0,
+      "unit_price": 89.38,
+      "line_total": 446.9
+    }
+  ]
+}

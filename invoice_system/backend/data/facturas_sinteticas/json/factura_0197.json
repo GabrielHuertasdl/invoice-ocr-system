@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0197.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0197.pdf",
+  "status": "completed",
+  "supplier_name": "ClearPath IT S.L.",
+  "supplier_address": "Gran Via 23, 48001 Bilbao",
+  "client_name": "Omega Holding Group",
+  "invoice_number": "SRV-0197",
+  "invoice_date": "25/07/2024",
+  "due_date": "23/09/2024",
+  "subtotal": 2768.35,
+  "tax_amount": 581.35,
+  "total_amount": 3349.7,
+  "currency": "EUR",
+  "tax_rate_pct": 21.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "API Integration",
+      "quantity": 1.0,
+      "unit_price": 625.86,
+      "line_total": 625.86
+    },
+    {
+      "description": "Project Management",
+      "quantity": 10.0,
+      "unit_price": 104.2,
+      "line_total": 1042.0
+    },
+    {
+      "description": "DevOps Consulting",
+      "quantity": 5.0,
+      "unit_price": 110.4,
+      "line_total": 552.0
+    },
+    {
+      "description": "Content Writing",
+      "quantity": 1.0,
+      "unit_price": 52.07,
+      "line_total": 52.07
+    },
+    {
+      "description": "Accounting Services",
+      "quantity": 1.0,
+      "unit_price": 496.42,
+      "line_total": 496.42
+    }
+  ]
+}

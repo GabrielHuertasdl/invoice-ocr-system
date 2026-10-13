@@ -10,6 +10,10 @@ class Settings(BaseSettings):
     tesseract_cmd: str = "tesseract"
     log_level: str = "INFO"
 
+    # LLM integration (set in .env)
+    llm_provider: str = "claude"   # "claude" | "openai"
+    llm_api_key: str = ""          # LLM_API_KEY in .env
+
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"

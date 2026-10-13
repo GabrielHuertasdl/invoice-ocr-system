@@ -1,0 +1,50 @@
+{
+  "filename": "factura_0020.pdf",
+  "file_path": "./data/facturas_sinteticas/json/factura_0020.pdf",
+  "status": "completed",
+  "supplier_name": "Coastal Media Ltd",
+  "supplier_address": "15 Harbour View, Dublin 2, D02 XY45",
+  "client_name": "GlobalTech Solutions",
+  "invoice_number": "FAC-0020",
+  "invoice_date": "11/04/2025",
+  "due_date": "10/06/2025",
+  "subtotal": 5992.39,
+  "tax_amount": 1378.25,
+  "total_amount": 7370.64,
+  "currency": "EUR",
+  "tax_rate_pct": 23.0,
+  "validation_notes": null,
+  "error_message": null,
+  "line_items": [
+    {
+      "description": "Subscription Services",
+      "quantity": 1.0,
+      "unit_price": 290.19,
+      "line_total": 290.19
+    },
+    {
+      "description": "Hardware Procurement",
+      "quantity": 1.0,
+      "unit_price": 1732.42,
+      "line_total": 1732.42
+    },
+    {
+      "description": "API Integration",
+      "quantity": 5.0,
+      "unit_price": 657.02,
+      "line_total": 3285.1
+    },
+    {
+      "description": "Database Administration",
+      "quantity": 2.0,
+      "unit_price": 164.8,
+      "line_total": 329.6
+    },
+    {
+      "description": "Mobile App Development",
+      "quantity": 3.0,
+      "unit_price": 118.36,
+      "line_total": 355.08
+    }
+  ]
+}
