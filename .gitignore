@@ -40,3 +40,8 @@ invoice_system/frontend/.vite/
 # ── OS ───────────────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+
+# Generic
+venv/
+.venv/
+.ipynb_checkpoints/
