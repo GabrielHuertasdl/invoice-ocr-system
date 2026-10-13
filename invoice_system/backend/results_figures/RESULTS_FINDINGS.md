@@ -1,5 +1,8 @@
 # 5. Results and Findings
 
+> **Note:** the OCR and extraction metrics in this chapter were computed on simulated OCR outputs produced by `scripts/create_sample_data.py`, not on end-to-end runs of the pipeline over real scans. They illustrate the evaluation methodology and should not be read as measured production accuracy.
+
+
 This chapter presents the empirical outcomes of the implemented invoice processing system,
 covering the synthetic dataset used for evaluation, OCR performance, information extraction
 accuracy, and the behaviour of the AI-assisted search and question-answering layer.
